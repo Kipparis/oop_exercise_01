@@ -1,0 +1,3 @@
+/data/data/com.termux/files/home/files/oop/oop_exercise_01/CMakeFiles/rebuild_cache.dir
+/data/data/com.termux/files/home/files/oop/oop_exercise_01/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/files/oop/oop_exercise_01/CMakeFiles/run.dir
