@@ -21,6 +21,7 @@ class Money {
 
         friend bool operator < (const Money &lhs, const Money &rhs);
         friend bool operator > (const Money &lhs, const Money &rhs);
+        friend bool operator == (const Money &lhs, const Money &rhs);
 
         friend std::ostream& operator<< (std::ostream &out, Money mon);
         friend std::istream& operator>> (std::istream &in, Money &mon);
