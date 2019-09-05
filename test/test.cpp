@@ -44,13 +44,13 @@ TEST_CASE( "Moneys sum and sub test", "[money]" ) {
 TEST_CASE( "Moneys mult and div test", "[money]" ) {
     REQUIRE( Money(100, 10) * 2.0 == Money(200, 20) );
     // when in rub there is . part (after multiplying rub) move it to pen 
-    REQUIRE( Money(123, 80) * 2.5 == Money(307 + 2, 5 + 0) ); 
+    REQUIRE( Money(123, 80) * 2.5 == Money(307 + 2, 50) ); 
     REQUIRE( Money(200, 83) * 2.5 == Money(500 + 2, 7) ); 
 
 
     REQUIRE( Money(300, 50) / 2.0 == Money(150, 25) );
     REQUIRE( Money(300, 60) / 1.5 == Money(200, 40) );
     // when in rub there is . part (after multiplying rub) move it to pen 
-    REQUIRE( Money(300, 60) / 8.0 == Money(37, 5 + 7) );
+    REQUIRE( Money(300, 60) / 8.0 == Money(37, 57) );
     REQUIRE( Money(200, 50) / 0.5 == Money(401, 0) );
 }
